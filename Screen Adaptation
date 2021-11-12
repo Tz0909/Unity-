@@ -11,6 +11,8 @@
 
 PlayerSetting中Resolution and Presentation中Render outside safe area用于设置刘海屏所在位置行是否渲染 勾选的话就会显示图像 否则就会为黑背景
 
+一般竖屏游戏左右锚点，横屏游戏上下锚点
+
 AndroidStatusBarHeight方法内容：
     //获取状态栏高度
     public int AndroidStatusBarHeight(){

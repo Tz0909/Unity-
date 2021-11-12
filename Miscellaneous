@@ -1,9 +1,8 @@
 1）返回数组中第一个有该属性的值：
-
-  using System.Linq;
-
   // A为数组   b为数组里属性
-
+  
+  using System.Linq;
+  
   var t = A.FirstOrDefault(c => (c.b != null));
   if (t != null)                     
   {                         
